@@ -1,0 +1,22 @@
+[name]
+model_name=gabage
+
+[train-configure]
+epochs=300
+steps=150,250
+batch_size=128
+subdivisions=1
+learning_rate=0.001
+
+[model-configure]
+pre_weights=/home/wapiti/Documents/Yolo-FastestV2/modelzoo/coco2017-0.241078ap-model.pth
+classes=42
+width=416
+height=416
+anchor_num=3
+anchors=62.92,186.42, 113.80,57.58, 128.73,113.39, 152.91,280.89, 281.96,133.76, 325.95,324.86
+
+[data-configure]
+train=/home/wapiti/Documents/Yolo-FastestV2/dataset/train.txt
+val=/home/wapiti/Documents/Yolo-FastestV2/dataset/test.txt
+names=/home/wapiti/Documents/Yolo-FastestV2/data/gabage.names

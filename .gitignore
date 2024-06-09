@@ -1,0 +1,15 @@
+model/__pycache__
+model/backbone/__pycache__
+utils/__pycache__
+weights
+data/voc.data
+data/voc.names
+dataset/
+
+# 示例
+sample/
+
+# 模型库
+modelzoo/
+
+# 

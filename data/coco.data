@@ -1,0 +1,22 @@
+[name]
+model_name=coco
+
+[train-configure]
+epochs=300
+steps=150,250
+batch_size=128
+subdivisions=1
+learning_rate=0.001
+
+[model-configure]
+pre_weights=None
+classes=80
+width=352
+height=352
+anchor_num=3
+anchors=78.74,212.46, 83.31,78.38, 161.84,279.68, 210.32,85.29, 287.01,167.78, 327.66,329.15
+
+[data-configure]
+train=/media/qiuqiu/D/coco/train2017.txt
+val=/media/qiuqiu/D/coco/val2017.txt
+names=./data/coco.names
